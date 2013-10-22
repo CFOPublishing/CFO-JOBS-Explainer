@@ -1,0 +1,161 @@
+.je-container {
+    margin:10px auto;
+    padding: 10px;
+}
+
+.je-container header .h1 {
+        font-weight:bold;
+        font-size:20px;
+}
+#je-naver{
+        padding: 10px;
+}
+
+.je-block {
+    margin-bottom: 8px;
+}
+.je-block-hed {
+    font-size:20px;
+    font-weight: bold;
+    font-family:sans-serif;
+    padding: 0;
+    margin: 0 0px 20px 0;
+}
+.je-block-subhed, h5 {
+    font-size: 16px;
+    font-weight:600;
+    font-family:sans-serif;
+    padding:0;
+    margin: 0 0 16px;
+}
+blockquote {
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: "\"";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.pullquote{
+    background: #ededed;
+    border-radius: 12px;
+    border: 1px black solid;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-weight:400;
+}
+.pullquote:before {
+  content: "";
+  width:0;
+  height:0;
+    margin:0;
+    padding:0;
+}
+.in-blockquote-source, .blockquote-source {
+       font-style:italic;
+}
+.dv-link{
+    color:#bc1e1e;
+    text-decoration:underline;
+}
+.dv-link:hover{
+    color:blueviolet;
+}
+.je-container .side-left {
+    width: 47%;
+    float: left;
+    padding: 10px;
+    border-right: 3px black solid;
+    margin-bottom: 14px;
+}
+    .je-container .side-right {
+        float: right;
+        width: 47%;
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+
+.indicator {
+        
+        position: relative;
+        height:160px;    
+}
+.indicator:after, .indicator:before {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.indicator:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: black;
+	border-width: 12px;
+	top: 50%;
+	margin-top: -92px;
+}
+
+.indicated {
+    margin-top:-10px;
+    background-color:#fdd72c;
+    border-radius: 20px;
+    margin-left:-30px;
+    line-height:21px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+    .je-container aside {
+        
+    }
+    #je-container-asides {
+       
+    }
+    .je-container .je-vs {
+        position: relative;
+        clear: none;
+        display: block;
+    }
+    
+    .je-container .je-vs:after { 
+            display: block;
+            clear: both;
+            content: " ";
+            height: 0;
+            overflow: hidden;
+    }
+
+#je-naver .h5 {
+       margin-left: 12px;
+}
+
+.body-three .title-split {
+    text-align:center;
+    font-family:Tahoma, Geneva, sans-serif;
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 23px;
+    
+}
+
+.body-three .side-left blockquote, .body-four .side-left blockquote {
+    font-size:13px   
+}
+
+nav.page-links {
+	display:none;
+}
